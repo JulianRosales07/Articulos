@@ -1,0 +1,162 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7/10/2024, 10:24:09 a. m.
+    Author     : julian
+*/
+
+    body {
+       background-image: url('https://i.pinimg.com/564x/c6/de/b5/c6deb5dab242b6b88086eb874b8f4aaa.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+    }
+
+    .card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .form-control {
+        border-radius: 5px;
+        border: 1px solid #ced4da;
+    }
+
+    .form-label {
+        color: #6c757d;
+        font-weight: bold;
+    }
+
+    h1 {
+        
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+        transform: scale(1.05);
+    }
+
+    .alert {
+        margin-top: 15px;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+    /* Estilo para el contenedor */
+    .card-container {
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    /* Estilos globales para el footer */
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 40px 0;
+    border-top: 1px solid #e4e4e4;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Sección superior de redes sociales */
+footer .border-bottom {
+    border-color: #ddd !important;
+}
+
+footer .text-reset {
+    color: inherit;
+}
+
+footer i {
+    margin-right: 8px;
+}
+
+/* Estilos para las columnas del footer */
+footer h6 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Estilo del enlace "Conéctate con nosotros en redes sociales" */
+footer .me-5 {
+    margin-right: 2rem;
+}
+
+footer .me-4 {
+    margin-right: 1.5rem;
+}
+
+/* Estilo de las secciones de contacto y enlaces útiles */
+footer .col-md-3,
+footer .col-md-2,
+footer .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Sección de contacto */
+footer .col-md-4 p {
+    margin-bottom: 0.5rem;
+}
+
+/* Sección de derechos reservados */
+footer .p-4 {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 15px 0;
+    color: #343a40;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    footer .col-md-3,
+    footer .col-md-2,
+    footer .col-md-4 {
+        text-align: center;
+    }
+
+    footer .me-5 {
+        margin-bottom: 15px;
+    }
+}

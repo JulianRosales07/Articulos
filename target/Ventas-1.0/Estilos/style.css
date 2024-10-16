@@ -1,0 +1,224 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/ 
+
+/* 
+    Created on : 6/10/2024, 11:18:17 p. m.
+    Author     : julian
+*/
+
+body {
+background-color: #e9ecef; /* Color de fondo más suave */
+}
+
+/* Reseteo básico de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.pinimg.com/564x/c6/de/b5/c6deb5dab242b6b88086eb874b8f4aaa.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Encabezado de la página */
+h1 {
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: #007bff; /* Color primario */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el contenedor de búsqueda y botones */
+.row {
+    margin-top: 20px;
+}
+
+/* Estilo de botones */
+.btn {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-success {
+    background-color: #28a745; /* Verde */
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Verde más oscuro */
+    transform: scale(1.05); /* Efecto de zoom */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Azul */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+    transform: scale(1.05); /* Efecto de zoom */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Gris */
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Gris más oscuro */
+    transform: scale(1.05); /* Efecto de zoom */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Rojo */
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Rojo más oscuro */
+    transform: scale(1.05); /* Efecto de zoom */
+}
+
+/* Estilo de tabla */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 0.5rem; /* Bordes redondeados */
+    overflow: hidden; /* Esconde bordes que sobresalen */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para la tabla */
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e9ecef; /* Color más suave para los bordes */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.table th {
+    background-color: #007bff; /* Color de fondo para el encabezado */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+.table tr:hover {
+    background-color: #e9ecef; /* Color de fondo al pasar el ratón */
+}
+
+.table tr:nth-child(even) {
+    background-color: #f8f9fa; /* Color de fondo para filas pares */
+}
+
+.table tr:nth-child(odd) {
+    background-color: #ffffff; /* Color de fondo para filas impares */
+}
+
+.table td {
+    border-radius: 0.25rem; /* Bordes redondeados en celdas */
+}
+
+/* Cambia el color de fondo de la tabla */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 0.5rem; /* Bordes redondeados */
+    overflow: hidden; /* Esconde bordes que sobresalen */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para la tabla */
+    background-color: #f0f8ff; /* Cambia este valor para un color de fondo diferente */
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e9ecef; /* Color más suave para los bordes */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+/* Opcional: Cambiar el color de fondo para las filas pares e impares */
+.table tr:nth-child(even) {
+    background-color: #e6f7ff; /* Cambia este valor para filas pares */
+}
+
+.table tr:nth-child(odd) {
+    background-color: #ffffff; /* Cambia este valor para filas impares */
+}
+
+/* Estilo del encabezado */
+.table th {
+    background-color: #007bff; /* Color de fondo para el encabezado */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+/* Efecto de hover en filas */
+.table tr:hover {
+    background-color: #e9ecef; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilo del formulario */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Contenedor general */
+.pagination-container {
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente el contenido */
+    align-items: center;      /* Centra verticalmente si es necesario */
+    width: 100%;              /* Se asegura de ocupar todo el ancho disponible */
+    margin-top: 20px;         /* Separación superior del contenido anterior */
+    padding: 10px;            /* Añade algo de espacio dentro del contenedor */
+    box-sizing: border-box;
+}
+
+/* Estilos para la paginación */
+.pagination {
+    display: flex;
+    justify-content: center;  /* Alinea los elementos de paginación en el centro */
+    list-style-type: none;    /* Elimina los puntos de las listas */
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    margin: 0 10px;           /* Espaciado entre los ítems de la paginación */
+}
+
+.pagination li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination li a:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination li.active a {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
